@@ -20,7 +20,7 @@ Architecture du site :
 📁js                 (javascript files)
 📁jsBS               (javascript files from bootstrap)
 
-+
++++
 
 html files :
 
@@ -29,7 +29,7 @@ html files :
 -report.html
 -commentary.html
 -timeline.html
--about.html!
+-about.html
 
 
-[Website Map](https://github.com/user-attachments/assets/d42d3860-856f-4ae6-87d8-40b07a788ce0)
+![Website Map](https://github.com/user-attachments/assets/d42d3860-856f-4ae6-87d8-40b07a788ce0)
