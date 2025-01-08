@@ -5,20 +5,20 @@ Repo de la SAE System Linux + HTML/CSS
 
 Architecture du site :
 
-📁assets            (source files)
-  |--------> 📁img
-  |--------> 📁vid
-  |--------> 📁svg
-  |--------> 📁ico
+📁assets                 (source files)
+  |--------> 📁img       (png,jpg files)
+  |--------> 📁vid       (video files)
+  |--------> 📁svg       (vector files)
+  |--------> 📁ico       (.ico files)
+  |--------> 📁fonts     (font files)
 
-📁css                (style files)
-  |--------> 📁main
-  |--------> 📁aux
+📁css                    (style files)
+  |--------> 📁main      (main style)
+  |--------> 📁aux       (auxiliar style)
   |--------> 📁bootstrap5
 
-📁fonts              (font files)
-📁js                 (javascript files)
-📁jsBS               (javascript files from bootstrap)
+📁js                     (javascript files)
+📁jsBS                   (javascript files from bootstrap)
 
 +++
 
