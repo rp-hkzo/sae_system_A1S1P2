@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('assets/fonts/SF-Pro.ttf');
+}
+@font-face {
+    font-family: 'SF-Pro-Italic';
+    src: url('assets/fonts/SF-Pro-Italic.ttf');
+}
+@font-face {
+    font-family: 'SF-Pro-Text-Regular';
+    src: url('assets/fonts/SF-Pro-Text-Regular.otf');
+}
+
+html {
+    background: #1c2930;
+}
+
+#navbar-container {
+    display: flex;
+    position: relative;
+    background: #23343e;
+    font-family: 'SF-Pro', sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    color: white;
+    box-shadow: 0 1em 3em 1em rgba(0, 0, 0, 0.25);
+}
+
+nav.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    display: inline;
+    position: relative;
+    color: #dccbc1;
+    font-size: 2em;
+    font-family: 'SF-Pro', sans-serif;
+    font-weight: bold;
+    margin-right: 1.5%;
+}
+
+.navbar-brand:hover {
+    color: #736a64;
+
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    width:80%
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link{
+    color: #dccbc1;
+}
+.nav-link:hover {
+    color: #736a64;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #23343e;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'SF-Pro-Text-Regular', sans-serif;
+    font-size: 1em;
+}
