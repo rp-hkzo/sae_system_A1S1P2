@@ -11,9 +11,15 @@
     src: url('assets/fonts/SF-Pro-Text-Regular.otf');
 }
 
-html {
+/*/////////////////////// GENERAL ///////////////////////*/
+
+html, body {
     background: #1c2930;
+    margin: 0;
+    padding: 0;
 }
+
+/*/////////////////////// HEADER ///////////////////////*/
 
 #navbar-container {
     display: flex;
@@ -63,13 +69,41 @@ nav.navbar {
     text-align: center;
 }
 
-.nav-link{
+.nav-link {
+    position: relative;
     color: #dccbc1;
-}
-.nav-link:hover {
-    color: #736a64;
+    text-decoration: none;
+    z-index: 0;
 }
 
+.nav-link:hover {
+    color: #23343e;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #dccbc1;
+    border-radius: 12px;
+    transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+    z-index: -1;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*/////////////////////// BODY ///////////////////////*/
+
+
+/*/////////////////////// FOOTER ///////////////////////*/
 
 #footer {
     display: flex;
@@ -78,7 +112,7 @@ nav.navbar {
     align-items: center;
     bottom: 0;
     background-color: #23343e;
-    color: white;
+    color: #dccbc1;
 }
 
 #footer-logo {
@@ -89,7 +123,7 @@ nav.navbar {
     height: 100%;
     margin-left: 1%;
     padding: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 #footer-content {
@@ -103,5 +137,5 @@ nav.navbar {
     text-align: center;
     font-family: 'SF-Pro-Text-Regular', sans-serif;
     font-size: 1em;
-    z-index: 1;
+    z-index: 2;
 }

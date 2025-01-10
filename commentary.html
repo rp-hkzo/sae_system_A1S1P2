@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/main/style.css" rel="stylesheet" type="text/css">
+    <link href="css/aux/commentarystyle.css" rel="stylesheet" type="text/css">
     <title>Commentary</title>
 </head>
 <body>
@@ -39,17 +40,52 @@
             </nav>
         </div>
     </header>
-
-
-
-    <footer class="container-fluid" id="footer">
-        <div class="container-fluid" id="footer-logo">
-            <a href="https://www.iut.parisdescartes.fr/">
-                <img src="assets/img/Logo_Université_de_Paris.svg-2.png" width="100%" alt="Logo IUT">
-            </a>
-        </div>
-        <div class="container-fluid" id="footer-content">
-            <p>&copy; 2025 IUT Paris Rives de Seine. Tout droits r&eacute;serv&eacute;s.</p>
+    <main>
+        <article class="container-fluid" id="intro-article">
+            <h1>ENGLISH COMMENTARY</h1>
+            <h3>This video is here to explain how did we install a virtual machine and how did we manage to install and launch an Apache Linux server on it.</h3>
+            <h3>This site is hosted on this server.</h3>
+        </article>
+        <article class="video-article">
+            <div class="video-container">
+                <video class="vid-msk" src="assets/vid/notcommentary.mp4" type="video/mp4" controls muted>
+                    Your browser does not support the video tag.
+                </video>
+                <video class="vid-src" src="assets/vid/notcommentary.mp4" type="video/mp4" controls muted>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </article>
+        <article class="container-fluid" id="closing-article">
+            <h2>MORE ABOUT THE PROJECT</h2>
+            <h3>If you're interested in seeing more of this project you can check some links:</h3>
+            <ul class="closing-article-links">
+                <li>
+                    <p>You can check our
+                        <a href="report.html">report</a>
+                        about the project. You'll find all the details you need to get deeply into our work.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You can also check our
+                        <a href="timeline.html">timeline</a>
+                        to see how we managed our time to get this project done.
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="container-fluid" id="footer-logo">
+                <a href="https://www.iut.parisdescartes.fr/">
+                    <img src="assets/img/Logo_Université_de_Paris.svg-2.png" width="100%" alt="Logo IUT">
+                </a>
+            </div>
+            <div class="container-fluid" id="footer-content">
+                <p>&copy; 2025 IUT Paris Rives de Seine. Tout droits r&eacute;serv&eacute;s.</p>
+            </div>
         </div>
     </footer>
     <script src="js/bootstrap/bootstrap.min.js"></script>

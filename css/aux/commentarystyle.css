@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('assets/fonts/SF-Pro.ttf');
+}
+@font-face {
+    font-family: 'SF-Pro-Italic';
+    src: url('assets/fonts/SF-Pro-Italic.ttf');
+}
+@font-face {
+    font-family: 'SF-Pro-Text-Regular';
+    src: url('assets/fonts/SF-Pro-Text-Regular.otf');
+}
+
+/*/////////////////////// GENERAL ///////////////////////*/
+
+main{
+    background-color: #1c2930;
+}
+
+#intro-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#intro-article h1 {
+    font-family: 'SF-Pro-Text-Regular', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    color: white;
+    margin: 0;
+    padding: 0 0 3% 0;
+}
+
+#intro-article h3 {
+    font-family: 'SF-Pro-Italic', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.video-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.video-container {
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+
+.vid-src {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+    border-radius: 45px;
+    width: 100%;
+}
+
+.vid-msk {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: relative;
+    border-radius: 45px;
+    width: 100%;
+    filter: brightness(10);
+    filter: blur(50px);
+    -webkit-filter: brightness(10);
+    -webkit-filter: blur(50px);
+}
+
+#closing-article {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF-Pro-Text-Regular', sans-serif;
+    color: white;
+}
+
+#closing-article h2 {
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#closing-article h3 {
+    display: flex;
+    font-size: 1.25em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.closing-article-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18%;
+    align-items: center;
+    width: 65%;
+}
+
+.closing-article-links li {
+    list-style-type: "▶    ";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.closing-article-links li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.closing-article-links li a:hover {
+    color: #dccbc1;
+}
