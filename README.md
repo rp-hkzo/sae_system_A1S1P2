@@ -1,7 +1,7 @@
 # sae_system_A1S1P2
 Repo de la SAE System Linux + HTML/CSS
 
-![PROGRESS BAR](https://github.com/rp-hkzo/sae_system_A1S1P2/blob/21498c9467dc2e7e5e0bce864d5d49d96d711e2f/PROGRESS%20BAR.png)
+![PROGRESS BAR](https://github.com/rp-hkzo/sae_system_A1S1P2/blob/751c30d9757d89775341cfa2c23adf8de4c74dc1/PROGRESS%20BAR.png))
 
 Architecture du site :
 
